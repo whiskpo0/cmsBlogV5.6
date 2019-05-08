@@ -73,7 +73,7 @@
                         {{ $posts->appends( Request::query() )->render() }}    
                     </div>
                     <div class="pull-right">                    
-                        <small>{{ $postCount }} {{ str_plural('Item', $post) }} </small>
+                        <small>{{ $postCount }} {{ str_plural('Item', $postCount) }} </small>
                     </div>
                 </div>
                 <!-- /.box -->
